@@ -28,20 +28,6 @@
 <a class="btn btn-success" href="{{route('tambahrpl')}}"><i class="fa fa-plus"></i> Tambah RPL</a>
 <br><br>
 
-{{-- <p>Cari Data Pegawai :</p>
-<form action="/welcome/cari" method="GET">
-<input type="text" name="cari" placeholder="Cari Pegawai .." value="{{ old('cari') }}">
-<input type="submit" value="CARI">
-</form>
-<br> --}}
-<form action="{{ route('showrpl') }}" method="GET" class="form-inline">
-  <div class="form-group mx-sm-3 mb-2">
-    <input type="text" name="keyword" class="form-control" placeholder="Cari data...">
-  </div>
-  <button type="submit" class="btn btn-primary mb-2">Cari</button>
-</form>
-<br>
-
 <table class="table table-bordered table-hover">
   <tr>
     <th>Id Siswa</th>
