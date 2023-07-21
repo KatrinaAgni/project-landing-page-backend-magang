@@ -1,5 +1,27 @@
 @extends('admin')
 
+@section('gambar1')
+<img src="{{ asset('img/WhatsApp Image 2023-07-08 at 12.33.34 AM.jpeg') }}" alt="gambar">
+@endsection
+@section('gambar2')
+<img src="{{ asset('img/WhatsApp Image 2023-07-08 at 12.33.37 AM.jpeg') }}" alt="gambar">
+@endsection
+@section('gambar3')
+<img src="{{ asset('img/WhatsApp Image 2023-07-08 at 12.33.35 AM.jpeg') }}" alt="gambar">
+@endsection
+@section('gambar4')
+<img src="{{ asset('img/WhatsApp Image 2023-07-08 at 12.33.37 AM (1).jpeg') }}" alt="gambar">
+@endsection
+@section('gambar5')
+<img src="{{ asset('img/WhatsApp Image 2023-07-08 at 12.33.35 AM (1).jpeg') }}" alt="gambar">
+@endsection
+@section('gambar6')
+<img src="{{ asset('img/WhatsApp Image 2023-07-08 at 12.33.36 AM.jpeg') }}" alt="gambar">
+@endsection
+@section('gambar7')
+<img src="{{ asset('img/WhatsApp Image 2023-07-08 at 12.33.38 AM.jpeg') }}" alt="gambar">
+@endsection
+
 @section('konten')
 <h3>Ubah Data Siswa RPL</h3>
   @foreach($tb_rpl as $s)
